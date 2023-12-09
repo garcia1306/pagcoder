@@ -1,0 +1,418 @@
+@media(max-width:768px){
+
+
+    /*HEADER*/
+    .heaader{
+        width: 100%;
+    }
+
+    ul .listapages{
+        width: 30%;
+    }
+
+    .listapages{
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+
+.navegador ul a:hover{
+    color: #F8DAA4;
+    font-size: 110% ;
+    transition: .5s;
+}
+
+.nav-link{
+    color: #2f3349;
+    font-size: 100%;
+
+}
+
+.nav-link.active{
+    margin-right: 0px;
+    margin-left: 0%;
+}
+
+.nav-item{
+    margin-left: 2%;
+    display: flex;
+}
+
+main{
+    max-width: 100%;
+}
+
+/*MAIN*/
+
+.fotografias{
+    width: 100%;
+    height: 800px;
+}
+
+.hola{
+    font-size: 160%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.soypro{
+    font-size: 160%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.mipic{
+    border-radius: 20%;
+    height: 95%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    width: 28%;
+    
+}
+
+.fotoindex{
+    width: 100%;
+    margin-left: 61%;
+    position: absolute;
+    height: 25%;
+}
+
+.circle{
+    height: 1%;
+    width: 20%;
+    margin-bottom: -113%;
+    margin-left: 61%;
+    display: inline;
+}
+
+.meespe{
+    flex-direction: column;
+    color: #FEF3DF;
+    font-size: 250%;
+    left: 16%;
+    bottom: 40%;
+
+}
+
+.lenguajes{
+    background-color:#2f3349 ;
+    height: 800px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+.foto_html img, .foto_css img , .foto_java img, .foto_react img{
+    height: 140px;
+    
+    
+}
+
+.foto_html img:hover{
+    height: 155px;
+    width: 315px; 
+}
+
+.foto_css img:hover{
+    height: 155px;
+    width: 315px; 
+}
+
+.foto_java img:hover{
+    height: 155px;
+    width: 315px; 
+}
+
+.foto_react img:hover{
+    height: 155px;
+    width: 315px; 
+}
+
+.volver{
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: none;
+}
+
+#arriba{
+    font-size: 100%;
+    
+}
+
+.flecha{
+    height: 20px;
+}
+
+.up{
+    text-decoration: none;
+    color: #2f3349;
+    
+}
+
+.up:hover{
+    color: #F8DAA4;
+    transition: .5s;
+    font-size: 105%;
+}
+
+/*FOOTER*/
+
+#yo{
+    display: inline;
+    display: flex;
+    
+}
+
+
+.minnickname{
+    font-size: 30px;
+    width: 50%;
+    padding-top: 10px;
+    margin-left: 30%;
+}
+
+
+.lista{
+    list-style-type: none;
+    font-size: 200%;
+    width: 40%;
+    margin-top: 20px;
+    display: none;
+    
+}
+
+
+
+
+
+.li,.fa,.ig{
+    display: inline block;
+    flex-direction: row;
+    
+
+}
+
+.li,.fa,.ig {
+    height: 72px;
+    width:77px ;
+    font-size: 10%;
+    margin-top: 50px;
+    
+}
+
+.ig{
+    margin-right: 7%;
+    font-size: 10%;
+    margin-left: 29%;
+}
+
+.fa{
+    margin-right: 5%;
+    font-size: 10%;
+}
+
+
+/*-------------------------------------*/
+/*RESPONSIVE SOBRE MI*/
+/*-------------------------------------*/
+
+
+
+.datasobremi{
+    font-size: 150%;
+    margin-left: 5%;
+    color: #2f3349;
+    padding-top: 150px;
+    display: inline-block;
+    flex-direction: column;
+    
+    
+}
+
+.flechaabajo{
+    width: 40px;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+.mainme{
+    background-color: #e0f1f1;
+    height: 200px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 15%;
+}
+
+.miespecialidad{
+    font-size: 150%;
+    bottom: 60px;
+}
+
+.miespecialidad2{
+    font-size: 150%;
+    bottom: 40px;
+}
+
+.mainme2{
+        background-color: #e0f1f1;
+        height: 200px;
+        width: 400px;
+        border-radius: 50%;
+        margin-top: 15%;
+        margin-left: 45%;
+    }
+
+    .vercv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
+.mano{
+    height: 100px;
+    width: 50px;
+    margin-left: 48%;
+}
+
+.enlace{
+    font-size: 150%;
+}
+
+
+/*-------------------------------------*/
+/*RESPONSIVE CURRICULUM VITAE*/
+/*-------------------------------------*/
+
+.vitaeimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo{
+    margin-top: 13%;
+    font-size: 150%;
+    margin-left: 35%;
+    color: #2f3349;
+
+}
+
+.imgvita{
+    height: 40%;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 7%;
+    border: solid #2f3349 30px; 
+}
+
+
+/*-------------------------------------*/
+/*RESPONSIVE CONTACTAME*/
+/*-------------------------------------*/
+
+.notevas{
+    margin-top: 20%;
+    font-size: 100%;
+    color:#2f3349;
+    margin-left: 10%;
+    width: 10%;
+    display: inline block;
+    display: none;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contactameami{
+    display: flex;
+    justify-content: center;
+    margin-right: 8%;
+}
+
+.imgrandom{
+    display: flex;
+    justify-content: center;
+    margin-right: 26%;
+    
+    
+}
+
+.fotorandom{
+    margin-left: 35%;
+    border: solid #2f3349;
+    margin-top: 20%;
+}
+
+.correoelectronico2{
+    font-size: 150%;
+    display: inline;
+    color:#2f3349; ;
+    text-align: center;
+    margin-left: 20%;
+    
+}
+
+
+.correo2{
+    margin-left: 8%;
+    font-size: 70%;
+    border: solid #2f3349;
+    
+}
+
+.fono2{
+    margin-left: 2%;
+    font-size: 70%;
+    border: solid #2f3349;
+    
+}
+
+.service{
+    margin-left: 10%;
+    border: solid #2f3349;
+}
+
+.send{
+    font-size: 70%;
+    margin-bottom: 1%;
+}
+
+.delete{
+    font-size: 70% ;
+}
+
+
+/*-------------------------------------*/
+/*RESPONSIVE PORTAFOLIO*/
+/*-------------------------------------*/
+
+.gridimagenes{
+    margin-bottom: 290%;
+    margin-top: 40px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 0,75fr);
+    grid-template-rows: repeat(2, 700px);
+    gap: 40px  ;
+    grid-template-areas: 
+    "ejemplo1" 
+    "ejemplo2"
+    "ejemplo3" 
+    "ejemplo4"
+    
+    
+    ;
+}
+
+.size h1{
+    font-size: 120%;
+    margin-top: 7px;
+}
+
+
+}

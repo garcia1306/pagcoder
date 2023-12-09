@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+/*HEADER*/
+header nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+    
+}
+    
+
+.navBar ul li a{
+    transition: .5s;
+}
+
+.navBar ul a:hover{
+    color: #F8DAA4;
+    font-size: 115%;
+    transition: .5s;
+}
+
+
+/*TOMASGARCIAMARIANI*/
+
+header{
+    background-color:#f3faff ;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    
+    
+}
+
+
+.listanav{
+    width: 100%;
+    align-items: center;
+    
+    
+    
+    
+
+}
+
+.navegador ul a:hover{
+    color: #F8DAA4;
+    font-size: 210% ;
+    transition: .5s;
+}
+
+.nav-link{
+    color: #2f3349;
+    font-size: 200%;
+
+}
+
+
+.nav-item{
+    margin-left: 5%;
+}
+
+
+li .nav-item{
+    margin-right: 0%;
+}
+
+
+
+
+
+
+
+header nav ul li{
+    color: black;
+    font-style: oblique;
+
+}
+
+.listapages{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 900px;
+}

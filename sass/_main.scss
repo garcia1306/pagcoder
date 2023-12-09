@@ -1,0 +1,447 @@
+/*----------------------------*/
+/*  TOMAS GARCIA MARIANI MAIN */
+/*----------------------------*/
+
+
+
+.main{
+    background-color: #fef3df;
+    height: 20%;
+}
+
+
+.fotografias{
+    background-color: #F8DAA4;
+    padding-top:150px ;
+    width: 200%;
+}
+
+.hola{
+    font-size: 500%;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.soypro{
+        font-size: 500%;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 2%;
+}
+
+.fotos{
+
+}
+.circle{
+    height: 20px;
+    width: 10%;
+    margin-bottom: -77%;
+    margin-left: 5%;
+    display: inline;
+    width: 60%;
+    size: 30px;
+}
+
+img .mipic{
+    width: 50%;
+    
+}
+
+.mipic{
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 20%;
+}
+.meespe{
+    flex-direction: initial;
+    color: #FEF3DF;
+    font-size: 350%;
+    margin-top: 3%;
+    position: absolute;
+    left: 10%;
+
+}
+
+.fotoindex{
+    width: 100%;
+    margin-left: 25%;
+
+
+}
+
+.lenguajes{
+    display: flex;
+    background-color:#2f3349 ;
+    height: 800px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.foto_html img, .foto_css img , .foto_java img, .foto_react img{
+    height: 200px;
+    
+    
+}
+
+.foto_html img:hover{
+    height: 215px;
+    width: 315px;
+}
+.foto_css img:hover{
+    height: 215px;
+    width: 315px;
+}
+.foto_java img:hover{
+    height: 215px;
+    width: 315px;
+}
+.foto_react img:hover{
+    height: 215px;
+    width: 315px; 
+}
+
+
+.volver{
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: none;
+}
+
+#arriba{
+    font-size: 200%;
+    
+}
+
+.flecha{
+    height: 40px;
+}
+
+.up{
+    text-decoration: none;
+    color: #2f3349;
+    
+}
+
+.up:hover{
+    color: #F8DAA4;
+    transition: .5s;
+    font-size: 105%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contactameami{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    background-color: #2f3349;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+
+
+
+.correoelectronico2{
+    font-size: 200%;
+    display: inline;
+    color:#F8DAA4; ;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+
+
+.correo2{
+    margin-left: 2%;
+    font-size: 70%;
+    border: solid #2f3349;
+    
+}
+
+.fono2{
+    margin-left: 2%;
+    font-size: 70%;
+    
+    
+}
+
+.service{
+    margin-left: 10%;
+    border: solid #2f3349;
+}
+
+.send{
+    font-size: 70%;
+    margin-bottom: 1%;
+    color: #F8DAA4;
+    background-color: #2f3349;
+    
+    
+}
+
+.delete{
+    font-size: 70% ;
+    color: #F8DAA4;
+    background-color: #2f3349;
+}
+
+/*----------------------------*/
+/*       SOBRE MI MAIN        */
+/*----------------------------*/
+
+body{
+    font-family: 'Edu TAS Principiante'
+
+
+}
+
+
+
+
+.datasobremi{
+font-size: 300%;
+margin-left: 5%;
+color: #2f3349;
+padding-top: 5%;
+display: inline-block;
+flex-direction: column;
+
+
+}
+
+.flechaabajo{
+width: 40%;
+height: 100px;
+margin-left: 20%;
+margin-top: 2%;
+}
+
+.mainme{
+background-color: #e0f1f1;
+height: 600px;
+width: 1000px;
+border-radius: 50%;
+margin-top: 15%;
+position: relative;
+}
+
+.miespecialidad{
+position: absolute;
+left: 40px;
+font-size: 400%;
+bottom: 180px;
+color: #2f3349;
+}
+
+.mainme2{
+    background-color: #e0f1f1;
+    height: 600px;
+    width: 1000px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: 60%;
+    position: relative;
+}
+
+
+.miespecialidad2{
+    position: absolute;
+    left: 70px;
+    font-size: 340%;
+    bottom: 180px;
+    color: #2f3349;
+}
+
+.vercv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mano{
+height: 400px;
+width: 200px;
+margin-left: 48%;
+}
+
+.enlace{
+font-size: 400%;
+
+}
+
+.vercvu{
+text-decoration: none;
+color: #2f3349;
+}
+
+
+/*----------------------------*/
+/*    CURRICULUM VITAE MAIN    */
+/*----------------------------*/
+
+.vitaeimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo{
+    margin-top: 5%;
+    font-size: 200%;
+    margin-left: 200px;
+    color: #2f3349;
+
+}
+
+.imgvita{
+    height: 1500px;
+    width: 1000px;
+    margin-top: 1%;
+    margin-left: 30%;
+    border: solid #2f3349 30px; 
+}
+
+
+
+
+/*----------------------------*/
+/*       CONTACTAME MAIN      */
+/*----------------------------*/
+
+
+.notevas{
+    margin-top: 200px;
+    font-size: 200%;
+    color:#2f3349;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contactameami{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    background-color: #2f3349;
+    width: 100%;
+    margin-top: 1%;
+}
+
+
+
+
+
+.correoelectronico2{
+    font-size: 200%;
+    display: inline;
+    color:#F8DAA4; ;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+
+
+.correo2{
+    margin-left: 2%;
+    font-size: 70%;
+    border: solid #2f3349;
+    
+}
+
+.fono2{
+    margin-left: 2%;
+    font-size: 70%;
+    
+    
+}
+
+.service{
+    margin-left: 10%;
+    border: solid #2f3349;
+}
+
+.send{
+    font-size: 70%;
+    margin-bottom: 1%;
+    color: #F8DAA4;
+    background-color: #2f3349;
+    
+}
+
+.delete{
+    font-size: 70% ;
+    color: #F8DAA4;
+    background-color: #2f3349;
+}
+
+
+
+/*----------------------------*/
+/*      PORTAFOLIO MAIN       */
+/*----------------------------*/
+
+.gridimagenes{
+    margin-bottom: 30%;
+    margin-top: 150px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(2, 0,75fr);
+    grid-template-rows: repeat(2, 700px);
+    gap: 80px  ;
+    grid-template-areas: 
+    "ejemplo1 ejemplo2"/*fila1*/
+    "ejemplo3 ejemplo4"/*fila2*/
+    
+    
+    ;
+}
+
+
+
+.size h1{
+    font-size: 150%;
+    margin-top: 30px;
+}
+
+.size{
+    text-align: center;
+    color: #2f3349;
+}
+
+.size img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.ejemplo1{
+    grid-area: ejemplo1;
+}
+
+.ejemplo2{
+    grid-area: ejemplo2;
+}
+
+.ejemplo3{
+    grid-area: ejemplo3;
+}
+
+.ejemplo4{
+    grid-area: ejemplo4;
+}
+
+.portafoliofooter{
+    margin-top: 10%;
+}
+

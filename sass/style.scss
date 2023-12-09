@@ -1,0 +1,35 @@
+/*PAGINA INDEX HTML*/
+*{margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+html{
+    max-width: 100%;
+}
+
+@import "header.scss";
+@import "footer.scss";
+@import "main.scss";
+@import "rs-media-1200.scss";
+@import "rs-media-1024.scss";
+@import "rs-media-768.scss";
+@import "rs-media-480.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
