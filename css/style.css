@@ -10,10 +10,6 @@ body {
   overflow-x: hidden;
 }
 
-html {
-  max-width: 100%;
-}
-
 /*HEADER*/
 header nav ul li {
   display: inline-block;
@@ -68,10 +64,8 @@ header nav ul li {
 }
 
 .listapages {
-  display: flex;
   text-align: center;
   margin-top: 20px;
-  margin-left: 900px;
 }
 
 footer {
@@ -188,7 +182,7 @@ img .mipic {
 }
 
 .fotoindex {
-  width: 100%;
+  width: 50%;
   margin-left: 25%;
 }
 
@@ -515,13 +509,14 @@ form {
 @media (max-width: 1200px) {
   /*HEADER*/
   .heaader {
-    width: 60%;
+    width: 100%;
   }
   .listapages {
-    display: flex;
     text-align: center;
     margin-top: 20px;
-    margin-left: 10px;
+  }
+  ul .listapages {
+    width: 1000px;
   }
   .navegador ul a:hover {
     color: #F8DAA4;
@@ -537,11 +532,10 @@ form {
     margin-left: 0%;
   }
   .nav-item {
-    margin-left: 3%;
-    display: flex;
+    margin-left: 2%;
   }
   main {
-    max-width: 1200px;
+    max-width: 100%;
   }
   /*MAIN*/
   .fotografias {
@@ -566,16 +560,16 @@ form {
     width: 20%;
   }
   .fotoindex {
-    width: 1500px;
-    margin-left: 59%;
+    width: 1100px;
+    margin-left: 29%;
     position: absolute;
-    height: 1400px;
+    height: 75%;
   }
   .circle {
     height: 200px;
     width: 150px;
     margin-bottom: -89%;
-    margin-left: 41%;
+    margin-left: 9%;
     display: inline;
     width: 60%;
   }
