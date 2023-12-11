@@ -58,37 +58,32 @@ main{
 
 .hola{
     font-size: 100%;
-    width: 100%;
+    width: 50%;
     margin-left: 10%;
 }
 
 .soypro{
     font-size: 100%;
-    width: 100%;
+    width: 50%;
     margin-left: 10%;
 }
 
 .mipic{
     border-radius: 20%;
-    height: 50%;
+    height: 30%;
     margin-top: 8%;
     margin-bottom: 1%;
-    width: 38%;
+    width: 28%;
     
 }
 
-.fotoindex{
-    width: 100%;
-    margin-left: 51%;
-    position: absolute;
-    height: 45%;
-}
+
 
 .circle{
     height: 2%;
     width: 40%;
-    margin-bottom: -207%;
-    margin-left: 50%;
+    margin-bottom: -126%;
+    margin-left: 44%;
     display: inline;
 }
 
@@ -97,7 +92,7 @@ main{
     color: #FEF3DF;
     font-size: 120%;
     left: 22%;
-    bottom: 45%;
+    bottom: -5%;
 
 }
 
@@ -137,6 +132,90 @@ main{
     width: 105%; 
 }
 
+.notevas{
+    margin-top: 20%;
+    font-size: 100%;
+    color:#2f3349;
+    margin-left: 10%;
+    width: 10%;
+    display: inline block;
+    display: none;
+
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.contactameami{
+    display: flex;
+    justify-content: center;
+}
+
+.imgrandom{
+    display: flex;
+    justify-content: center;
+    margin-right: 26%;
+    
+    
+}
+
+
+.gmail{
+    color:#F8DAA4;
+    font-size: 70%;
+
+}
+
+.telefonia{
+    color:#F8DAA4; 
+    font-size: 70%;
+}
+
+.servicios{
+    color:#F8DAA4; 
+    font-size: 70%;
+}
+
+.correoelectronico2{
+    font-size: 150%;
+    display: inline;
+    color:#2f3349; ;
+    text-align: center;
+    margin-left: 6%;
+    
+}
+
+
+.correo2{
+    margin-left: 8%;
+    font-size: 40%;
+    border: solid #2f3349;
+    
+}
+
+.fono2{
+    margin-left: 8%;
+    font-size: 40%;
+    border: solid #2f3349;
+    
+}
+
+.service{
+    margin-left: 5%;
+    border: solid #2f3349;
+    font-size: 70%;
+}
+
+.send{
+    font-size: 50%;
+    margin-bottom: 1%;
+}
+
+.delete{
+    font-size: 50% ;
+}
 /*FOOTER*/
 
 footer{
@@ -152,7 +231,7 @@ footer{
 
 .minnickname{
     font-size: 15px;
-    width: 80%;
+    width: 60%;
     padding-top: 10px;
     margin-left: 32%;
 }
@@ -297,80 +376,7 @@ footer{
 /*RESPONSIVE CONTACTAME*/
 /*-------------------------------------*/
 
-.notevas{
-    margin-top: 20%;
-    font-size: 100%;
-    color:#2f3349;
-    margin-left: 10%;
-    width: 10%;
-    display: inline block;
-    display: none;
 
-}
-
-form{
-    display: flex;
-    justify-content: center;
-}
-
-.contactameami{
-    display: flex;
-    justify-content: center;
-    margin-right: 8%;
-}
-
-.imgrandom{
-    display: flex;
-    justify-content: center;
-    margin-right: 26%;
-    
-    
-}
-
-.fotorandom{
-    margin-left: 35%;
-    border: solid #2f3349;
-    margin-top: 30%;
-    height: 130px;
-}
-
-.correoelectronico2{
-    font-size: 150%;
-    display: inline;
-    color:#2f3349; ;
-    text-align: center;
-    margin-left: 6%;
-    
-}
-
-
-.correo2{
-    margin-left: 8%;
-    font-size: 70%;
-    border: solid #2f3349;
-    
-}
-
-.fono2{
-    margin-left: 8%;
-    font-size: 70%;
-    border: solid #2f3349;
-    
-}
-
-.service{
-    margin-left: 5%;
-    border: solid #2f3349;
-}
-
-.send{
-    font-size: 70%;
-    margin-bottom: 1%;
-}
-
-.delete{
-    font-size: 70% ;
-}
 
 
 /*-------------------------------------*/
