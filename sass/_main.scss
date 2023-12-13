@@ -4,281 +4,231 @@
 
 
 
-.main{
-    background-color: #fef3df;
+$primary-color: #2f3349;
+$secondary-color: #F8DAA4;
+$background-color: #fef3df;
+
+.main {
+    background-color: $background-color;
     height: 20%;
 }
 
-
-.fotografias{
-    background-color: #F8DAA4;
-    padding-top:150px ;
+.fotografias {
+    background-color: $secondary-color;
+    padding-top: 150px;
     width: 200%;
-}
 
-.hola{
+    .hola,
+    .soypro {
     font-size: 500%;
     width: 100%;
     margin-left: 5%;
-}
+    }
 
-.soypro{
-        font-size: 500%;
-        width: 100%;
-        margin-left: 5%;
-        margin-top: 2%;
-}
-
-.circle{
+    .circle {
     height: 20px;
-    width: 10%;
+    width: 60%;
     margin-bottom: -77%;
     margin-left: 5%;
-    display: inline;
-    width: 60%;
-    size: 30px;
     display: none;
-}
+    }
 
-img .mipic{
-    width: 50%;
-    
-    
-}
-
-.mipic{
+    .mipic {
     margin-left: 20%;
     border-radius: 10%;
     margin-top: 2%;
     margin-bottom: 4%;
     width: 19%;
     height: 2000px;
-
-}
-.meespe{
-    flex-direction: initial;
-    color: #FEF3DF;
-    font-size: 350%;
-    margin-top: 3%;
-    position: absolute;
-    left: 10%;
+    }  
 
 }
 
 
 
-.lenguajes{
+
+.lenguajes {
+
+    
     display: flex;
-    background-color:#2f3349 ;
+    background-color: $primary-color;
     height: 800px;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-}
 
 
 
-.foto_html img, .foto_css img , .foto_java img, .foto_react img{
-    height: 200px;
-    
-    
+    .foto_html,
+    .foto_css,
+    .foto_java,
+    .foto_react {
+    img {
+        height: 200px;
+
+        &:hover {
+        height: 215px;
+        width: 315px;
+        }
+    }
+    }
 }
 
-.foto_html img:hover{
-    height: 215px;
-    width: 315px;
-}
-.foto_css img:hover{
-    height: 215px;
-    width: 315px;
-}
-.foto_java img:hover{
-    height: 215px;
-    width: 315px;
-}
-.foto_react img:hover{
-    height: 215px;
-    width: 315px; 
-}
-
-
-.volver{
+.volver {
     text-align: center;
     padding-top: 200px;
     text-decoration: none;
-}
 
-#arriba{
+    #arriba {
     font-size: 200%;
-    
-}
+    }
 
-.flecha{
+    .flecha {
     height: 40px;
-}
+    }
 
-.up{
+    .up {
     text-decoration: none;
-    color: #2f3349;
-    
+    color: $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+        transition: 0.5s;
+        font-size: 105%;
+    }
+    }
 }
 
-.up:hover{
-    color: #F8DAA4;
-    transition: .5s;
-    font-size: 105%;
-}
-
-form{
+form {
     display: flex;
     justify-content: center;
 }
 
-.contactameami{
+.contactameami {
     display: flex;
     justify-content: center;
     margin-right: 10%;
-    background-color: #2f3349;
+    background-color: $primary-color; 
     width: 100%;
     margin-top: 1%;
-}
 
-
-
-
-
-.correoelectronico2{
+    .correoelectronico2 {
     font-size: 200%;
     display: inline;
-    color:#F8DAA4; ;
+    color: $secondary-color;
     text-align: center;
     margin-left: 10%;
-    
-}
+    }
 
-
-.correo2{
+    .correo2,
+    .fono2 {
     margin-left: 2%;
     font-size: 70%;
-    border: solid #2f3349;
-    
-}
+    border: solid $primary-color;
+    }
 
-.fono2{
-    margin-left: 2%;
-    font-size: 70%;
-    
-    
-}
-
-.service{
+    .service {
     margin-left: 10%;
-    border: solid #2f3349;
-}
+    border: solid $primary-color;
+    }
 
-.send{
+    .send,
+    .delete {
     font-size: 70%;
     margin-bottom: 1%;
-    color: #F8DAA4;
-    background-color: #2f3349;
-    
-    
+    color: $secondary-color;
+    background-color: $primary-color;
+    }
 }
 
-.delete{
-    font-size: 70% ;
-    color: #F8DAA4;
-    background-color: #2f3349;
-}
 
 /*----------------------------*/
 /*       SOBRE MI MAIN        */
 /*----------------------------*/
 
-body{
-    font-family: 'Edu TAS Principiante'
+$primary-color: #2f3349;
+$secondary-color: #e0f1f1;
+$font-family: 'Edu TAS Principiante';
 
-
+body {
+    font-family: $font-family;
 }
 
-
-
-
-.datasobremi{
-font-size: 300%;
-margin-left: 5%;
-color: #2f3349;
-padding-top: 5%;
-display: inline-block;
-flex-direction: column;
-
-
+.datasobremi {
+    font-size: 300%;
+    margin-left: 5%;
+    color: $primary-color;
+    padding-top: 5%;
+    display: inline-block;
+    flex-direction: column;
 }
 
-.flechaabajo{
-width: 40%;
-height: 100px;
-margin-left: 20%;
-margin-top: 2%;
+.flechaabajo {
+    width: 40%;
+    height: 100px;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 .mainme{
-background-color: #e0f1f1;
-height: 600px;
-width: 1000px;
-border-radius: 50%;
-margin-top: 15%;
-position: relative;
-}
-
-.miespecialidad{
-position: absolute;
-left: 40px;
-font-size: 400%;
-bottom: 180px;
-color: #2f3349;
-}
-
-.mainme2{
-    background-color: #e0f1f1;
+    background-color: $secondary-color;
     height: 600px;
     width: 1000px;
     border-radius: 50%;
     margin-top: 15%;
-    margin-left: 60%;
-    position: relative;
-}
+    position: relative;}
 
+    .mainme2{
+        background-color: $secondary-color;
+        height: 600px;
+        width: 1000px;
+        border-radius: 50%;
+        margin-top: 15%;
+        position: relative;
+        margin-left: 50%;
+    
+    }
 
-.miespecialidad2{
+    .miespecialidad,
+    .miespecialidad2 {
     position: absolute;
-    left: 70px;
-    font-size: 340%;
+    left: 40px;
+    font-size: 400%;
     bottom: 180px;
-    color: #2f3349;
-}
+    color: $primary-color;
+    }
 
-.vercv{
+    .miespecialidad2{
+        font-size: 360%;
+        left: 49px;
+    }
+    
+
+
+.vercv {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.mano{
-height: 400px;
-width: 200px;
-margin-left: 48%;
+.mano {
+    height: 400px;
+    width: 200px;
+    margin-left: 48%;
 }
 
-.enlace{
-font-size: 400%;
+.enlace {
+    font-size: 400%;
+    text-decoration: none;
+    color: $primary-color;
 
 }
 
-.vercvu{
-text-decoration: none;
-color: #2f3349;
+a{
+    text-decoration: none;
 }
+
+
 
 
 /*----------------------------*/
@@ -309,78 +259,7 @@ color: #2f3349;
 
 
 
-/*----------------------------*/
-/*       CONTACTAME MAIN      */
-/*----------------------------*/
 
-
-.notevas{
-    margin-top: 200px;
-    font-size: 200%;
-    color:#2f3349;
-
-}
-
-form{
-    display: flex;
-    justify-content: center;
-}
-
-.contactameami{
-    display: flex;
-    justify-content: center;
-    margin-right: 10%;
-    background-color: #2f3349;
-    width: 100%;
-    margin-top: 1%;
-}
-
-
-
-
-
-.correoelectronico2{
-    font-size: 200%;
-    display: inline;
-    color:#F8DAA4; ;
-    text-align: center;
-    margin-left: 10%;
-    
-}
-
-
-.correo2{
-    margin-left: 2%;
-    font-size: 70%;
-    border: solid #2f3349;
-    
-}
-
-.fono2{
-    margin-left: 2%;
-    font-size: 70%;
-    
-    
-}
-
-.service{
-    margin-left: 10%;
-    border: solid #2f3349;
-}
-
-.send{
-    font-size: 70%;
-    margin-bottom: 1%;
-    color: #F8DAA4;
-    background-color: #2f3349;
-    
-}
-
-.delete{
-    font-size: 70% ;
-    color: #F8DAA4;
-    background-color: #2f3349;
-}
 
 
 
